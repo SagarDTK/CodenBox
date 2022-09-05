@@ -9,7 +9,7 @@ describe("Wait : ",()=>{
     })
 
     it("Pause : ",()=>{
-
+a
         cy.pause()
     })
 
@@ -18,5 +18,6 @@ describe("Wait : ",()=>{
         cy.get(".page-title").should('be.visible')
     })
     
+    cy.log("Wait program :")
 
 })
