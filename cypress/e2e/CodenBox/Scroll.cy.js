@@ -15,5 +15,6 @@ describe("Scroll Up or Down : ",()=>
         cy.wait(3000)
         cy.contains('Welcome to CodenBox AutomationLab').scrollIntoView()
 
+        cy.log("Scroll Program :")
     })
 })
